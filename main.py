@@ -228,7 +228,7 @@ if option=="Image File":
         
         col1, col2 = st.columns(2)
         with col1:
-            st.image(dehazed_image, caption='Input Image [Dehazed Image]', use_column_width=True)
+            st.image(image, caption='Input Image', use_column_width=True)
             st.markdown("<p style='font-size:20px;'>Input Image [Dehazed Image]</p>", unsafe_allow_html=True)
         with col2:
             st.image(output_image,caption="Output Image [Lane Line Detected]",use_column_width=True)
